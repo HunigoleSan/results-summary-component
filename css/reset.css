@@ -1,0 +1,16 @@
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.50%;
+}
+img{
+    display: block
+}
+a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
