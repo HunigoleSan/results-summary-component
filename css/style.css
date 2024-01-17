@@ -58,6 +58,8 @@ body{
     font-size: 1.8rem;  
     padding-top: .5rem;
     padding-bottom: 1rem; 
+    font-weight: 600;
+    color: var(--Light-lavender);
 }
 .header__circle{
     display: flex;

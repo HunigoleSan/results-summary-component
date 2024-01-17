@@ -13,6 +13,7 @@ window.document.addEventListener("DOMContentLoaded",function(){
         let summary_icon = document.createElement("img")
         summary_icon.src = summary[data].icon
         summary_icon.className = "summary__icon"
+        summary_icon.alt = "icon " + summary[data].category
 
         let summary_category= document.createElement("p")
         summary_category.textContent = summary[data].category
